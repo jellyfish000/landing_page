@@ -1,0 +1,159 @@
+body{
+    margin:0; 
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto,serif;  
+
+}
+
+.hero,
+.footer,
+.first {
+    background:#1F2937;
+    color:#F9FAF8;
+      
+}
+
+.hero{
+    display:flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    gap:16px;
+    margin:16px;
+  }
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+a{
+    color:#F9FAF8;
+    text-decoration: none;
+}
+
+.left{
+    font-size:24px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:300px;
+    gap:5px;
+  }
+
+
+.content-header{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.button-1{
+    background: #3882F6;
+    color:#F9FAF8;
+    width:100px;
+    border-radius: 5px;
+}
+
+.image{
+    padding: 20px 0px;
+}
+
+.second{
+    display:flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.info{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.japan-image{
+    width: 50px;
+    height:auto;
+    flex:1;
+    margin:10px;
+}
+.third{
+    display: flex;
+    background-color:#E5E7EB;
+    flex-direction: column;
+    padding: 100px;
+}
+
+q{
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    font-weight: light;
+}
+
+cite{
+    text-align:right;
+}
+
+.fourth{
+    display: flex;
+    justify-content:center;
+    padding:50px;
+    color:#F9FAF8;
+}
+
+.container{
+    background-color:#3882F6;
+    display: flex;
+    padding:20px 50px ;
+    border-radius: 5px;
+    flex:1;
+    max-width: 80%;
+    gap:50px;
+    justify-content: space-between;
+}
+
+.mini-header{
+    font-weight: 700;
+}
+
+.button-container{
+    align-content: center;
+}
+
+.button-2{
+    
+    color:#F9FAF8;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding:10px;
+}
+
